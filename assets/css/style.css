@@ -1,6 +1,21 @@
 body {
 }
 
+/*------------------------ COMMON CLASSES*/
+h1 h1 h3 h4 h5 {
+  margin: 0;
+}
+
+.uppercase {
+  text-transform: uppercase;
+}
+
+.general-sub {
+  font-family: "Exo", sans-serif;
+  font-weight: 300;
+  color: #fafafa;
+}
+
 /*--------- HEADING ------*/
 .logo {
   background-image: url("../images/girl.png");
@@ -103,8 +118,20 @@ body {
 }
 
 /* ----------------------- HOVER.CSS */
-
-.hvr-sweep-to-bottom:before {
+div .hvr-sweep-to-bottom:before {
   background: rgba(0, 0, 0, 0.2);
-  height: 120px;
+  /* height: 120px; */
+}
+
+/*------------------------ FOOTER*/
+
+footer {
+  background-color: #525252;
+  color: #fafafa;
+  min-height: 120px;
+  margin: 0;
+}
+
+.inline-block {
+  display: inline-block;
 }
