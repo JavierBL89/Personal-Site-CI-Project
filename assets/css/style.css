@@ -16,13 +16,30 @@ h1 h1 h3 h4 h5 {
   color: #fafafa;
 }
 
+.row-table {
+  display: table;
+}
+
+.section-column {
+  display: table-cell;
+  padding: 0 30px 30px;
+  float: none;
+}
+
+.section-heading {
+  font-family: "Exo", sans-serif;
+  font-weight: 300;
+  margin-top: 25px;
+  margin-bottom: 40px;
+}
+
 /*--------- HEADING ------*/
 .logo {
   background-image: url("../images/girl.png");
   background-position: center;
   background-repeat: no-repeat;
-  background-size: cover;
-  height: 348px;
+  background-size: 100%;
+  height: 340px;
   transition: all 0.5s ease-out;
   -moz-transition: all 0.5s ease-out;
   -webkit-transition: all 0.5s ease-out;
@@ -30,6 +47,10 @@ h1 h1 h3 h4 h5 {
 
 .bg-color-name-title {
   background-color: #676767;
+}
+
+.bg-color-three-reasons {
+  background-color: #ffffff;
 }
 
 .heading {
@@ -40,7 +61,7 @@ h1 h1 h3 h4 h5 {
   font-family: "Exo", sans-serif;
   font-weight: 100;
   font-size: 2.5rem;
-  margin-top: 7%;
+  margin-top: 6%;
   color: #ffffff;
 }
 
