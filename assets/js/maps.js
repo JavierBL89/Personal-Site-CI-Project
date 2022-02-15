@@ -1,5 +1,3 @@
-var API_KEY = "AIzaSyBcmp4fMRhlQYVCo723OYUNvSlHOt6B2wE";
-
 
   function initMap(){
     const map = new google.maps.Map(document.getElementById("map"), {
