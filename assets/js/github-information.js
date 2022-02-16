@@ -17,6 +17,10 @@ function userInformationHTML(user){
 }
 
 function fetchGitHubInformation(event){
+  $("#gh-user-data").html("");
+  $("#gh-user-content").html("");
+
+
   let userName = $("#gh-username").val();
   if(!userName){
     $("gh-user-data").html(`<h2>Please enter a GitHub user name</h2>`)
@@ -48,3 +52,5 @@ $.when(
   }
 )
 }
+
+$(document).ready(fetchGitHubInformation);
